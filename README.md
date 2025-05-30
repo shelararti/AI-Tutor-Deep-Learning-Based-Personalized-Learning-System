@@ -17,7 +17,7 @@ An interactive Streamlit-based AI tutor designed to personalize learning paths u
 
 ## 📦 Installation
 
-git clone https://github.com/yourusername/ai-tutor.git
+git clone [https://github.com/yourusername/ai-tutor.git](https://github.com/shelararti/AI-Tutor-Deep-Learning-Based-Personalized-Learning-System.git)
 cd ai-tutor
 pip install -r requirements.txt
 streamlit run main.py
@@ -43,10 +43,16 @@ To avoid risk, switch to the official OpenAI API like this:
 import openai
 
 openai.api_key = "YOUR_API_KEY"
+
 response = openai.ChatCompletion.create(
+
   model="gpt-4",
+  
   messages=[{"role": "user", "content": prompt}]
+  
 )
+
+
 Use g4f only if you're okay with the risks. You’ve been warned.
 
 ---
