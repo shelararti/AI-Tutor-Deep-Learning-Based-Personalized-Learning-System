@@ -31,9 +31,13 @@ This project uses g4f to call language models like GPT-4 without API keys.
 
 ## ❗ Please note:
 g4f is not an official OpenAI library.
+
 It reverse-engineers public endpoints and may break without warning.
+
 It can violate OpenAI’s terms of service.
+
 Never use it in production or with sensitive/personal data.
+
 To avoid risk, switch to the official OpenAI API like this:
 
 import openai
