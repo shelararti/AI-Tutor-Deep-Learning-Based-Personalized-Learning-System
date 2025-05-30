@@ -22,8 +22,12 @@ cd ai-tutor
 pip install -r requirements.txt
 streamlit run main.py
 
+---
+
 ## ⚠️ WARNING: g4f Usage
 This project uses g4f to call language models like GPT-4 without API keys.
+
+---
 
 ## ❗ Please note:
 g4f is not an official OpenAI library.
@@ -41,12 +45,16 @@ response = openai.ChatCompletion.create(
 )
 Use g4f only if you're okay with the risks. You’ve been warned.
 
+---
+
 🔧 Configuration
 Update your MySQL credentials in quiz_generator.py.
 
 Ensure student_data.json is writable and located in the root directory.
 
 Populate your MySQL database (quiz_db) with initial quiz data.
+
+---
 
 ## 📁 File Structure
 
@@ -61,19 +69,27 @@ ai-tutor/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # You're reading it!
 
+---
+
 ## 🧠 Topics Covered
 Subjects: Data Science, Computer Science, Mathematics
 Examples: MySQL, DSA, Pandas, NumPy, Power BI, EDA
 Algorithms, OS, Networking
 Calculus, Linear Algebra, Probability
 
+---
+
 ## 🤝 Contributing
 Pull Requests are welcome!
 Open an issue for new features, bug fixes, or enhancements.
 
+---
+
 ## 📜 License
 This project is for educational and personal use only.
 Please do not use g4f or this system in production unless you fully understand the legal and ethical implications.
+
+---
 
 ## 📬 Contact
 Questions or suggestions?
