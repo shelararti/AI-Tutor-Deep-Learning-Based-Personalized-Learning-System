@@ -70,38 +70,52 @@ Populate your MySQL database (quiz_db) with initial quiz data.
 
 ai-tutor/
 ├── main.py                   # Streamlit UI
+
 ├── tutor_backend.py          # Progress logic & prerequisites
+
 ├── quiz_generator.py         # Quiz DB access & AI Q&A
+
 ├── convex_optimizer.py       # Convex optimization logic
+
 ├── mastery_predictor.py      # Embedding-based mastery scoring
+
 ├── recommendation_ui.py      # Recommendation UI
+
 ├── student_data.json         # Stores per-user topic scores
+
 ├── requirements.txt          # Python dependencies
+
 └── README.md                 # You're reading it!
 
 ---
 
 ## 🧠 Topics Covered
 Subjects: Data Science, Computer Science, Mathematics
+
 Examples: MySQL, DSA, Pandas, NumPy, Power BI, EDA
+
 Algorithms, OS, Networking
+
 Calculus, Linear Algebra, Probability
 
 ---
 
 ## 🤝 Contributing
 Pull Requests are welcome!
+
 Open an issue for new features, bug fixes, or enhancements.
 
 ---
 
 ## 📜 License
 This project is for educational and personal use only.
+
 Please do not use g4f or this system in production unless you fully understand the legal and ethical implications.
 
 ---
 
 ## 📬 Contact
 Questions or suggestions?
+
 DM me or raise a GitHub issue.
 
