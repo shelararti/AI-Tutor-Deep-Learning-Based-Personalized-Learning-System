@@ -140,8 +140,7 @@ Do not use in production or with real user data.
 Replace it with OpenAI’s official API in quiz_generator.py if needed:
 
 python
-Copy
-Edit
+
 import openai
 
 openai.api_key = "YOUR_API_KEY"
@@ -151,12 +150,12 @@ response = openai.ChatCompletion.create(
 )
 Use g4f at your own risk. You’ve been warned.
 
-🧠 Topics Covered
+# 🧠 Topics Covered
 Subjects: Data Science, Computer Science, Mathematics
 
 Examples: MySQL, DSA, ML, Stats, Python, OS, Algorithms, Calculus, Linear Algebra
 
-📁 Files
+# 📁 Files
 main.py – UI logic
 
 quiz_generator.py – AI and quiz database
@@ -169,11 +168,7 @@ mastery_predictor.py – NLP-based scoring
 
 recommendation_ui.py – topic suggestions
 
-🛠️ Setup Notes
+# 🛠️ Setup Notes
 Ensure you have a MySQL database configured for quizzes.
 
 student_data.json is used for saving student progress.
-
-yaml
-Copy
-Edit
