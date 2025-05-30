@@ -1,0 +1,8 @@
+streamlit
+g4f
+mysql-connector-python
+cvxpy
+tensorflow
+tensorflow-hub
+numpy
+pandas
